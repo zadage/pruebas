@@ -1,10 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <title>sad</title>
 </head>
 <body>
-
+    <header>
+        <h1>Pruebas HTML</h1>
+    </header>
+    <hr>
+    <div id="wrapper">
+        <section class="form" id="add_user_form">
+            <form id="add_user" action="post">
+                <div class="labels">
+                    <label class="label" for="username">Alias</label>
+                    <label class="label" for="mail">Correo</label>
+                    <label class="label" for="pass">Contraseña</label>
+                </div>
+                <div class="inputs">
+                    <input class="input" type="text" id="username">
+                    <input class="input" type="text" id="mail">
+                    <input class="input" type="password" id="pass">
+                </div>
+                <div class="buttons">
+                    <input class="input" type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </div>
 </body>
 </html>
