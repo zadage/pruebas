@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ccc;
+}
+header{
+    background-color: #a6a6a6;
+}
+header h1{
+    float: left;
+    width: 50%;
+    margin: 1% 25% 1% 25%;
+    text-align: center;
+    color: navy;
+}
+hr{
+    clear: both;
+}
+#add_user{
+    float: left;
+    width: 50%;
+    margin: 2% 25%;
+    padding: 3%;
+}
+
+#add_user .labels{
+    float: left;
+    width: 15%;
+}
+
+#add_user .labels .label{
+    width: 100%;
+    display: block;
+    margin-top: 17%;
+}
+
+#add_user .inputs{
+    float: left;
+    width: 80%;
+    margin-left: 5%;
+}
+
+#add_user .inputs .input{
+    width: 100%;
+    display: block;
+    margin-top: 3%;
+}
+#add_user .buttons{
+    margin-top: 17%;
+    padding: 3%;
+}
+
+#add_user .buttons .input{
+    float: right;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+
+
+
